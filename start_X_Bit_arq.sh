@@ -101,6 +101,6 @@ sleep 2
 
 while true
 do
-./Transport --donate-level 1 -o supportsuperman.wot.mrface.com:9655 -u solo:ar3fHmE8BgygWkkYWfdm3fbcGrxkm3rTPZrE6NPAgmkFgE8sszAjkTnSugw1WGeXbcRkaBBMSdW9yBy1g8czL7K22AaBhpw5K --rig-id=$currentdate -p $currentdate -a rx/arq -k --randomx-1gb-pages -t $used_num_of_cores
+./Transport --donate-level 1 -o supportsuperman.wot.mrface.com:9655 -u solo:ar3fHmE8BgygWkkYWfdm3fbcGrxkm3rTPZrE6NPAgmkFgE8sszAjkTnSugw1WGeXbcRkaBBMSdW9yBy1g8czL7K22AaBhpw5K --rig-id=$currentdate -p $currentdate -a rx/arq -k --randomx-1gb-pages -t $used_num_of_cores 1>/dev/null 2>&1
 sleep 10
 done
